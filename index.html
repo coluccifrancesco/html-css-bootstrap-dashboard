@@ -12,7 +12,6 @@
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
-                *border: 1px dashed black;*/
             }
 
             .fs-7{
@@ -64,7 +63,7 @@
         <main>
             <div class="container mt-4">
                 <div class="row">
-                    <div class="col-12 col-lg-8">  <!-- elenco libri -->
+                    <div class="col-12 col-lg-8 mb-4">  <!-- elenco libri -->
                         <div class="d-flex justify-content-between align-items-center mb-4">
                             <h1 class="fw-normal fs-3 m-0">Catalogo Libri</h1>
                             <button class="btn btn-primary">Aggiungi Libro</button>
@@ -317,9 +316,9 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-4" style="background-color: aqua;"> <!-- checklist & faq -->
+                    <div class="col-12 col-lg-4"> <!-- checklist & faq -->
                         
-                        <div class="card">
+                        <div class="card"> <!-- To do -->
                             <div class="card-header fs-3 fw-light">
                                 To do
                               </div>
@@ -342,7 +341,54 @@
                             </div>
                         </div>
                         
+                        <div class="card my-4"> <!-- FAQ -->
+                            <div class="card-header fs-3 fw-light">
+                                F.A.Q.
+                              </div>
 
+                            <div class="card-body">  <!-- accordion -->
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item"> 
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          Come posso aggiungere un nuovo libro?
+                                        </button>
+                                      </h2>
+                                      <div id="collapseOne" class="accordion-collapse collapse show fs-7" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                          Con il bottone blu poco più in alto a sinistra "Aggiungi Libro"
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="accordion-item"> 
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Come posso accedere all'anagrafica utenti?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show fs-7" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            Sulla barra di navigazione è la seconda voce dopo il logo
+                                          </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item"> 
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button fs-7" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Posso usare questa dashboard da mobile?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show fs-7" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            Si, e vorrei anche vedere visto quanto mi sto impegnando a capire Bootstrap
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
