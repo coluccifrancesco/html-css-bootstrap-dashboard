@@ -20,6 +20,10 @@
       font-size: 0.75rem;
     }
 
+    .fs-9{
+      font-size: 0.60rem;
+    }
+
     .mb-6 {
       margin-bottom: 0.2rem;
     }
@@ -73,7 +77,8 @@
         <div class="col-lg-8">
           <div class="container mb-3 d-flex  justify-content-between align-items-center">
             <h2 class="fw-light">Catalogo Libri</h2>
-            <button class="btn btn-primary fs-7">Aggiungi libro</button>
+            <button class="btn btn-primary fs-7 d-none d-lg-block">Aggiungi libro</button>
+            <button class="btn btn-primary fs-7 d-block d-lg-none">Aggiungi libro</button>
           </div>
 
           <table class="table">
@@ -84,7 +89,7 @@
                   <p class="d-none d-md-block m-0">Data Prestito</p>
                 </th>
 
-                <th class="text-center">Stato</th>
+                <th>Stato</th>
                 <th class="text-center">Azioni</th>
               </tr>
             </thead>
@@ -92,252 +97,252 @@
             <tbody>
               <tr class="align-middle">
                 <!-- riga libro -->
-                <td>I pilastri della terra</td>
+                <td class="fs-8">I pilastri della terra</td>
                 <td>
                   <p class="d-none d-md-block m-0">-</p>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-success py-0 fs-8 px-2 mb-6">
+                <td>
+                  <button class="btn btn-success py-0 fs-9 px-2 mb-6">
                     Disponibile
                   </button>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                <td class="text-center d-flex justify-content-evenly align-items-center">
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-pencil fs-7 fs-7" aria-hidden="true"></i>
                   </button>
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-trash fs-7 px-0 fs-7 " aria-hidden="true"></i>
                   </button>
                 </td>
               </tr>
 
               <tr class="align-middle">
                 <!-- riga libro -->
-                <td class="fs-7">I promessi sposi</td>
+                <td class="fs-8">I promessi sposi</td>
                 <td>
                   <p class="d-none d-md-block m-0">-</p>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-success py-0 fs-8 px-2 mb-6">
+                <td>
+                  <button class="btn btn-success py-0 fs-9 px-2 mb-6">
                     Disponibile
                   </button>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                <td class="text-center d-flex justify-content-evenly align-items-center">
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-pencil fs-7 fs-7" aria-hidden="true"></i>
                   </button>
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-trash fs-7 px-0 fs-7" aria-hidden="true"></i>
                   </button>
                 </td>
               </tr>
 
               <tr class="align-middle">
                 <!-- riga libro -->
-                <td class="fs-7">Il signore degli anelli</td>
+                <td class="fs-8">Il signore degli anelli</td>
                 <td>
                   <p class="d-none d-md-block m-0 fs-8">18/10/2025</p>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-warning py-0 fs-8 px-2 mb-6 text-white">
+                <td>
+                  <button class="btn btn-warning py-0 fs-9 px-2 mb-6 text-white">
                     In prestito
                   </button>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                <td class="text-center d-flex justify-content-evenly align-items-center">
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-pencil fs-7" aria-hidden="true"></i>
                   </button>
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-trash fs-7 px-0 fs-7" aria-hidden="true"></i>
                   </button>
                 </td>
               </tr>
 
               <tr class="align-middle">
                 <!-- riga libro -->
-                <td class="fs-7">Harry Potter e la pietra filosofale</td>
+                <td class="fs-8 lh-1">Harry Potter e la pietra filosofale</td>
                 <td>
                   <p class="d-none d-md-block m-0">-</p>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-success py-0 fs-8 px-2 mb-6">
+                <td>
+                  <button class="btn btn-success py-0 fs-9 px-2 mb-6">
                     Disponibile
                   </button>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                <td class="text-center d-flex justify-content-evenly align-items-center">
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-pencil fs-7" aria-hidden="true"></i>
                   </button>
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-trash fs-7 px-0 fs-7" aria-hidden="true"></i>
                   </button>
                 </td>
               </tr>
 
               <tr class="align-middle">
                 <!-- riga libro -->
-                <td class="fs-7">Il codice Da Vinci</td>
+                <td class="fs-8">Il codice Da Vinci</td>
                 <td>
                   <p class="d-none d-md-block m-0">-</p>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-danger py-0 fs-8 px-2 mb-6">
+                <td>
+                  <button class="btn btn-danger fs-9 px-1 mb-6 lh-1 py-0">
                     Non disponibile
                   </button>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                <td class="text-center d-flex justify-content-evenly align-items-center">
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-pencil fs-7" aria-hidden="true"></i>
                   </button>
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-trash fs-7 px-0 fs-7" aria-hidden="true"></i>
                   </button>
                 </td>
               </tr>
 
               <tr class="align-middle">
                 <!-- riga libro -->
-                <td class="fs-7">Shining</td>
+                <td class="fs-8">Shining</td>
                 <td>
                   <p class="d-none d-md-block m-0">-</p>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-success py-0 fs-8 px-2 mb-6">
+                <td>
+                  <button class="btn btn-success py-0 fs-9 px-2 mb-6">
                     Disponibile
                   </button>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                <td class="text-center d-flex justify-content-evenly align-items-center">
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-pencil fs-7" aria-hidden="true"></i>
                   </button>
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-trash fs-7 px-0 fs-7" aria-hidden="true"></i>
                   </button>
                 </td>
               </tr>
 
               <tr class="align-middle">
                 <!-- riga libro -->
-                <td class="fs-7">La divina commedia</td>
+                <td class="fs-8">La divina commedia</td>
                 <td>
                   <p class="d-none d-md-block m-0 fs-8">21/09/2025</p>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-warning py-0 fs-8 px-2 mb-6 text-white">
+                <td>
+                  <button class="btn btn-warning py-0 fs-9 px-2 mb-6 text-white">
                     In prestito
                   </button>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                <td class="text-center d-flex justify-content-evenly align-items-center">
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-pencil fs-7" aria-hidden="true"></i>
                   </button>
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-trash fs-7 px-0 fs-7" aria-hidden="true"></i>
                   </button>
                 </td>
               </tr>
 
               <tr class="align-middle">
                 <!-- riga libro -->
-                <td class="fs-7">Il trono di spade
+                <td class="fs-8">Il trono di spade
                 <td>
                   <p class="d-none d-md-block m-0">-</p>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-success py-0 fs-8 px-2 mb-6">
+                <td>
+                  <button class="btn btn-success py-0 fs-9 px-2 mb-6">
                     Disponibile
                   </button>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                <td class="text-center d-flex justify-content-evenly align-items-center">
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-pencil fs-7" aria-hidden="true"></i>
                   </button>
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-trash fs-7 px-0 fs-7" aria-hidden="true"></i>
                   </button>
                 </td>
               </tr>
 
               <tr class="align-middle">
                 <!-- riga libro -->
-                <td class="fs-7">Il mondo di Sofia</td>
+                <td class="fs-8">Il mondo di Sofia</td>
                 <td>
                   <p class="d-none d-md-block m-0">-</p>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-danger py-0 fs-8 px-2 mb-6">
+                <td>
+                  <button class="btn btn-danger py-0 fs-9 px-1 mb-6 lh-1">
                     Non disponibile
                   </button>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                <td class="text-center d-flex justify-content-evenly align-items-center">
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-pencil fs-7" aria-hidden="true"></i>
                   </button>
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-trash fs-7 px-0 fs-7" aria-hidden="true"></i>
                   </button>
                 </td>
               </tr>
 
               <tr class="align-middle">
                 <!-- riga libro -->
-                <td class="fs-7">Le cronache di Narnia: il leone, la strega e l'armadio</td>
+                <td class="fs-8 lh-1">Le cronache di Narnia: il leone, la strega e l'armadio</td>
                 <td>
-                  <p class="d-none d-md-block m-0">-</p>
+                  <p class="d-none d-md-block m-0 fs-8">25/07/2025</p>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-warning py-0 fs-8 px-2 mb-6 text-white">
+                <td>
+                  <button class="btn btn-warning py-0 fs-9 px-2 mb-6 text-white">
                     In prestito
                   </button>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                <td class="text-center d-flex justify-content-evenly align-items-center">
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-pencil fs-7" aria-hidden="true"></i>
                   </button>
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
-                  </button>
-                </td>
-              </tr>
-
-              <tr class="align-middle">
-                <!-- riga libro -->
-                <td class="fs-7">Il piccolo principe</td>
-                <td>
-                  <p class="d-none d-md-block m-0">-</p>
-                </td>
-                <td class="text-center">
-                  <button class="btn btn-success py-0 fs-8 px-2 mb-6">
-                    Disponibile
-                  </button>
-                </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
-                  </button>
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-trash fs-7 px-0 fs-7" aria-hidden="true"></i>
                   </button>
                 </td>
               </tr>
 
               <tr class="align-middle">
                 <!-- riga libro -->
-                <td class="fs-7">La storia infinta</td>
+                <td class="fs-8">Il piccolo principe</td>
                 <td>
                   <p class="d-none d-md-block m-0">-</p>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-success py-0 fs-8 px-2 mb-6">
+                <td>
+                  <button class="btn btn-success py-0 fs-9 px-2 mb-6">
                     Disponibile
                   </button>
                 </td>
-                <td class="text-center">
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                <td class="text-center d-flex justify-content-evenly align-items-center">
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-pencil fs-7" aria-hidden="true"></i>
                   </button>
-                  <button class="btn btn-outline-secondary px-2 py-1">
-                    <i class="fa fa-trash" aria-hidden="true"></i>
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-trash fs-7 px-0 fs-7" aria-hidden="true"></i>
+                  </button>
+                </td>
+              </tr>
+
+              <tr class="align-middle">
+                <!-- riga libro -->
+                <td class="fs-8">La storia infinta</td>
+                <td>
+                  <p class="d-none d-md-block m-0">-</p>
+                </td>
+                <td>
+                  <button class="btn btn-success py-0 fs-9 px-2 mb-6">
+                    Disponibile
+                  </button>
+                </td>
+                <td class="text-center d-flex justify-content-evenly align-items-center">
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-pencil fs-7" aria-hidden="true"></i>
+                  </button>
+                  <button class="btn btn-outline-secondary px-1 py-0">
+                    <i class="fa fa-trash fs-7 px-0 fs-7" aria-hidden="true"></i>
                   </button>
                 </td>
               </tr>
