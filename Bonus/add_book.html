@@ -26,6 +26,11 @@
       .mb-6 {
         margin-bottom: 0.2rem;
       }
+
+      .py-6{
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+      }
     </style>
 </head>
 <body>
@@ -68,5 +73,75 @@
           </div>
         </nav>
     </header>
+
+    <main>
+        <div class="container my-5 pt-5">
+            <h3 class="fw-normal mb-4">Nuovo Libro</h3>
+
+            <div>
+                <form class="row">
+                    <div class="mb-3 col col-12 col-md-6">
+                      <label class="form-label">Nome Autore</label>
+                      <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore">
+                    </div>
+                    
+                    <div class="mb-3 col col-12 col-md-6">
+                      <label class="form-label">Cognome Autore</label>
+                      <input type="text" class="form-control" placeholder="Inserisci il cognome dell'autore">
+                    </div>
+                    
+                    <div class="mb-4 col col-12 mt-3">
+                        <label class="form-label">Titolo</label>
+                        <input type="text" class="form-control" placeholder="Inserisci il titolo del libro">
+                        <div id="titolo" class="form-text">Titolo versione Italiana</div>
+                    </div>
+
+                    <div class="col col-12 col-md-4">
+                        <label class="form-label">Genere</label>
+
+                        <div class="dropdown mb-3 col col-12 d-flex justify-content-center align-items-end">
+                            <button class="py-6 rounded border-0 col col-12" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <div class="text-body-secondary text-start">Clicca per scegliere</div>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Uomo</a></li>
+                                <li><a class="dropdown-item" href="#">Donna</a></li>
+                                <li><a class="dropdown-item" href="#">Preferisco non esprimermi</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                      
+                    <div class="mb-3 col col-12 col-md-4">
+                        <label for="quantity" class="form-label">Anno di pubblicazione</label>
+                        <input type="number" min="-1000" max="2025"  class="form-control" id="year" placeholder="Inserisci l'anno">
+                    </div>
+                      
+                    <div class="mb-3 col col-12 col-md-4">
+                        <label class="form-label">ISBN#</label>
+                        <input type="text" class="form-control" id="isbn" placeholder="Inserisci il codice ISBN#">
+                    </div>
+                    
+                    <hr class="mt-3 mb-4"> 
+
+                    <div class="mb-4 col col-12">
+                        <label class="form-label">Note</label>
+                        <input type="text" class="form-control pb-5 col-12" placeholder="Inserisci evenutali note sul libro">
+                    </div>
+                    
+                    <div class="mb-3 form-check mx-3">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Disponibile anche in digitale</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary col-4 col-md-3 mx-3 my-2 text-center">Aggiungi Libro</button>
+                  </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous">
+    </script>
 </body>
 </html>
